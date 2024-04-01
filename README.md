@@ -154,6 +154,18 @@ Until there are a bunch of builds, it'll be categorized as beta/experimental, bu
 
 Zruncho has been using a weaker extrusionless gantry and pinned carriage (from Pinned Boop) for all of 2023 without ill effects.
 
+### Resonance testing
+
+Graphs are from a Boxed Tri-Zero with experimental dropped Z extrusions, PapLite, Kevinakasam MiniSB-derived toolhead, GT2 belts, Vampire Bat gantry, and Mellow ADXL345 with CNC mount.
+
+Roughly 30K is pretty good.  
+
+Note the low spectral density on X (200) vs Y (9000); a high preload rail may be causing low-frequency attenuation effects here.  This should be a fast swap to test, though... no need to retension belts!
+
+| ![](Graphs/calibrate_x_2024-03-30-t0-extrusionless-poke-bat-vampire-kevin-mellow-tightened-screws.png) | ![](Graphs/calibrate_y_2024-03-30-t0-extrusionless-poke-bat-vampire-kevin-mellow-tightened-screws.png) |
+| - | - |
+| X: 32K | Y: 28K |
+
 ### CAD Note: flip the parts after STL export!
 
 The CAD shows the wrong chirality - that is, the filled-in areas were done in a way that doesn't match the V0 convention, so it will NOT work if you just print the parts from CAD.  It's too much CAD work to flip the chirality, so the parts are all mirrored after STL export.  MAKE SURE to mirror if you use the CAD and do any exports.  
