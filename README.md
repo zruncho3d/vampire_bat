@@ -14,6 +14,11 @@ The **Vampire Bat** gantry system includes 3 distinct parts:
 
 **Vampire X carriage and clips only**: *Don't have a V0?  No problem.*  Enable the ease of pins on any Micron, Salad Fork, Dueling Zero, or Pandora's Box: faster attachment and completely repeatable tensioning. You can then swap out motors, or swap out rails, in just minutes, without needing to retighten and rematch belt tensions. Should work on any PFA printer with 6mm belts, 3mm belt spacing, and a front-facing MGN9H rail.  
 
+## Updates
+
+* 2024-04-03: Thanks `thor`!  Fixed minor bridging issues near MGN9 entrance and belt tunnel.
+* 2024-04-02: Added IS Graphs.
+
 ## Features
 * Compatibility with MiniSB and derivatives (Mini Stealth Sherpa, Hacky Boi, and more)
 * Compatibility with most front-facing PFA carriages, including Boop
